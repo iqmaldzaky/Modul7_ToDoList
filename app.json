@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "TodoList",
+    "name": "My Todo",
     "slug": "TodoList",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash-custom.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash-custom.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/splash-custom.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.iqmaldzaky11.TodoList"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45dc11d1-60a1-4c4f-819e-3f8b50f1000a"
+      }
     }
   }
 }
